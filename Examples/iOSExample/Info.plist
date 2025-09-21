@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>Align My Cell Tower</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.alignmycelltower</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    
+    <!-- Location permissions required for GPS and compass functionality -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs location access to provide GPS coordinates and compass heading for precise cell tower alignment.</string>
+    
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app needs location access to provide GPS coordinates and compass heading for precise cell tower alignment.</string>
+    
+    <!-- Optional: Background location for continuous tracking -->
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This app can use location in the background for continuous cell tower alignment tracking.</string>
+    
+    <!-- Required for compass functionality -->
+    <key>NSLocationUsageDescription</key>
+    <string>This app needs location services to provide accurate compass heading information.</string>
+</dict>
+</plist>
